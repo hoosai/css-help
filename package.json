@@ -1,0 +1,20 @@
+{
+    "name": "css-help",
+    "version": "0.0.1",
+    "main": "gulpfile.js",
+    "scripts": {
+        "clean": "gulp clean",
+        "dev": "gulp dev",
+        "build": "gulp build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "https://github.com/hoosai/css-help.git",
+    "author": "sai <hoosai@163.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2"
+    }
+}

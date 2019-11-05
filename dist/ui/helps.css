@@ -1,0 +1,80 @@
+/* width */
+/* font-size */
+/* line-height */
+/* color */
+/* radius */
+.cb::after { content: "."; display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; }
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+.db { display: block; }
+
+.dib { display: inline-block; *display: inline; *zoom: 1; }
+
+.di { display: inline; }
+
+.dn { display: none; }
+
+.oh { overflow: hidden; }
+
+.vh { visibility: hidden; }
+
+.pr { position: relative; }
+
+.prz { position: relative; zoom: 1; }
+
+.ff0 { font-family: arial, \5b8b\4f53; }
+
+.ff1 { font-family: "Microsoft YaHei", \5fae\8f6f\96c5\9ed1, arial, \5b8b\4f53; }
+
+.fwn { font-weight: normal; }
+
+.fwb { font-weight: bold; }
+
+.tal { text-align: left; }
+
+.tac { text-align: center; }
+
+.tar { text-align: right; }
+
+.taj { text-align: justify; text-justify: inter-ideograph; }
+
+.ti { overflow: hidden; text-indent: -30000px; }
+
+.ti2 { text-indent: 2em; }
+
+.vam { vertical-align: middle; }
+
+.vama * { vertical-align: middle; }
+
+.vat { vertical-align: top; }
+
+.vab { vertical-align: bottom; }
+
+.vabl { vertical-align: baseline; }
+
+.wsn { white-space: nowrap; word-wrap: normal; }
+
+.wwb { word-wrap: break-word; word-break: break-all; white-space: normal; }
+
+.pre { overflow: hidden; text-align: left; white-space: pre-wrap; word-wrap: break-word; word-break: break-all; }
+
+.tdu, .tdu:hover { text-decoration: underline; }
+
+.tdn, .tdn:hover { text-decoration: none; }
+
+.toe { overflow: hidden; word-wrap: normal; white-space: nowrap; text-overflow: ellipsis; }
+
+.toe2 { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; }
+
+.csp { cursor: pointer; }
+
+.csd { cursor: default; }
+
+.csh { cursor: help; }
+
+.csm { cursor: move; }
+
+.usn { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
