@@ -1,5 +1,6 @@
 const { series, src, dest, watch } = require('gulp');
 const sass = require('gulp-sass');
+const autoprefixer = require('gulp-autoprefixer');
 const del = require('del');
 const rename = require('gulp-rename');
 
@@ -7,12 +8,14 @@ const rename = require('gulp-rename');
 function sassTask() {
     return src(['src/**/*.scss', 'src/**/*.css', '!src/**/_*.scss', '!src/var.scss'])
         .pipe(sass({ outputStyle: 'compact' }).on('error', sass.logError))
+        .pipe(autoprefixer())
         .pipe(dest('dist/'))
 }
 // create minified scss files
-function sassMinTask(){
+function sassMinTask() {
     return src(['src/**/*.scss', 'src/**/*.css', '!src/**/_*.scss', '!src/var.scss'])
         .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+        .pipe(autoprefixer())
         .pipe(rename(function (path) {
             path.basename += ".min";
             return path;
@@ -20,12 +23,12 @@ function sassMinTask(){
         .pipe(dest('dist/'))
 }
 // delete dist folder
-function cleanTask(){
+function cleanTask() {
     return del(['dist']);
 }
 
 // start development watch scss change
-exports.default = exports.dev = series(sassTask, function(){
+exports.default = exports.dev = series(sassTask, function () {
     watch('src/**/*.scss', sassTask)
 })
 exports.clean = cleanTask;

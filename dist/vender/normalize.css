@@ -21,7 +21,7 @@ figcaption, figure, main { /* 1 */ display: block; }
 figure { margin: 1em 40px; }
 
 /** 1. Add the correct box sizing in Firefox. 2. Show the overflow in Edge and IE. */
-hr { box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
+hr { -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
 
 /** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
 pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
@@ -31,7 +31,7 @@ pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
 a { background-color: transparent; /* 1 */ -webkit-text-decoration-skip: objects; /* 2 */ }
 
 /** 1. Remove the bottom border in Chrome 57- and Firefox 39-. 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
-abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ text-decoration: underline dotted; /* 2 */ }
+abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ -webkit-text-decoration: underline dotted; -moz-text-decoration: underline dotted; text-decoration: underline dotted; /* 2 */ }
 
 /** Prevent the duplicate application of `bolder` by the next rule in Safari 6. */
 b, strong { font-weight: inherit; }
@@ -94,7 +94,7 @@ button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focus
 fieldset { padding: 0.35em 0.75em 0.625em; }
 
 /** 1. Correct the text wrapping in Edge and IE. 2. Correct the color inheritance from `fieldset` elements in IE. 3. Remove the padding so developers are not caught out when they zero out `fieldset` elements in all browsers. */
-legend { box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ }
+legend { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ }
 
 /** 1. Add the correct display in IE 9-. 2. Add the correct vertical alignment in Chrome, Firefox, and Opera. */
 progress { display: inline-block; /* 1 */ vertical-align: baseline; /* 2 */ }
@@ -103,7 +103,7 @@ progress { display: inline-block; /* 1 */ vertical-align: baseline; /* 2 */ }
 textarea { overflow: auto; }
 
 /** 1. Add the correct box sizing in IE 10-. 2. Remove the padding in IE 10-. */
-[type="checkbox"], [type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
+[type="checkbox"], [type="radio"] { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
 
 /** Correct the cursor style of increment and decrement buttons in Chrome. */
 [type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button { height: auto; }
