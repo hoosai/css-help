@@ -3,6 +3,7 @@
 /* line-height */
 /* color */
 /* radius */
+/* box-shadow */
 /* widths */
 .wa { width: auto; }
 
@@ -158,6 +159,17 @@
 .radius-xl { border-radius: 10px; }
 
 .radius-xxl { border-radius: 20px; }
+
+/* box-shadow */
+.shadow-0 { -webkit-box-shadow: none !important; box-shadow: none !important; }
+
+.shadow-1 { -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04); box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04); }
+
+.shadow-2 { -webkit-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1); box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1); }
+
+.shadow-3 { -webkit-box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.05); box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.05); }
+
+.shadow-4 { -webkit-box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.05); box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.05); }
 
 /* position fixed */
 .abs-lt { position: absolute; left: 0; top: 0; }

@@ -45,6 +45,14 @@ $size in $radius {
     }
 };
 
+/* box-shadow */
+@each $name,
+$size in $shadow {
+    .#{$prefix}shadow#{if($name != '', $delimiter2 + $name, '')} {
+        box-shadow: #{$size};
+    }
+};
+
 /* position fixed */
 @each $name,$value in (abs, absolute), (fixed, fixed) {
     .#{$prefix}#{$name}#{$delimiter2}lt{

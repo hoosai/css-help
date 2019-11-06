@@ -3,6 +3,7 @@
 /* line-height */
 /* color */
 /* radius */
+/* box-shadow */
 .cb::after { content: "."; display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; }
 
 .fl { float: left; }
