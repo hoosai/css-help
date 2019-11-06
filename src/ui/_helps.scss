@@ -1,4 +1,4 @@
-.#{$prefix}cb::after {
+.#{$prefix}cf::after {
     content   : ".";
     display   : block;
     clear     : both;
@@ -13,6 +13,14 @@
 
 .#{$prefix}fr {
     float: right;
+}
+
+.#{$prefix}bsbb {
+    box-sizing: border-box;
+}
+
+.#{$prefix}bscb {
+    box-sizing: content-box;
 }
 
 .#{$prefix}db {

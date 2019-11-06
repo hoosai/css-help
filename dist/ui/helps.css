@@ -1,14 +1,16 @@
 /* width */
 /* font-size */
 /* line-height */
-/* color */
 /* radius */
-/* box-shadow */
-.cb::after { content: "."; display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; }
+.cf::after { content: "."; display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; }
 
 .fl { float: left; }
 
 .fr { float: right; }
+
+.bsbb { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.bscb { -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; }
 
 .db { display: block; }
 
