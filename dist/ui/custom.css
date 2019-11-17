@@ -103,6 +103,12 @@
 
 .abs-0 { position: absolute; bottom: 0; left: 0; right: 0; top: 0; }
 
+.abs-lc { position: absolute; top: 0; right: auto; bottom: 0; left: 0; margin-top: auto; margin-bottom: auto; }
+
+.abs-rc { position: absolute; top: 0; right: 0; bottom: 0; left: auto; margin-top: auto; margin-bottom: auto; }
+
+.abs-c { position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: auto; }
+
 .fixed-lt { position: fixed; left: 0; top: 0; }
 
 .fixed-rt { position: fixed; right: 0; top: 0; }
@@ -116,6 +122,12 @@
 .fixed-b { position: fixed; bottom: 0; left: 0; width: 100%; }
 
 .fixed-0 { position: fixed; bottom: 0; left: 0; right: 0; top: 0; }
+
+.fixed-lc { position: fixed; top: 0; right: auto; bottom: 0; left: 0; margin-top: auto; margin-bottom: auto; }
+
+.fixed-rc { position: fixed; top: 0; right: 0; bottom: 0; left: auto; margin-top: auto; margin-bottom: auto; }
+
+.fixed-c { position: fixed; top: 0; right: 0; bottom: 0; left: 0; margin: auto; }
 
 .border { border: 1px solid #dddddd; }
 

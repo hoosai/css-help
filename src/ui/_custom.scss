@@ -71,6 +71,32 @@ $size in $radius {
         right: 0;
         top: 0;
     }
+    .#{$prefix}#{$name}#{$delimiter2}lc{
+        position: $value;
+        top: 0;
+        right: auto;
+        bottom: 0;
+        left: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .#{$prefix}#{$name}#{$delimiter2}rc{
+        position: $value;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .#{$prefix}#{$name}#{$delimiter2}c{
+        position: $value;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
 }
 
 @mixin border($color, $style:solid, $width: 1px) {
